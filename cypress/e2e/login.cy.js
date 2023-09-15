@@ -1,5 +1,8 @@
-describe('template spec', () => {
-  it('passes', () => {
-    
+describe('Login', () => {
+   
+  it('Successfully', () => {
+    cy.login();
+    cy.get('.qa-user-avatar').should('be.visible');
+
   })
 })

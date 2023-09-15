@@ -4,6 +4,6 @@ module.exports = defineConfig({
   e2e: {
     baseUrl: 'http://localhost',
   },
-  fixturesFolder: false,
+  //fixturesFolder: false,
   video: false,
 })
